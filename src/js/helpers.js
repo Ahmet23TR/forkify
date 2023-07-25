@@ -31,12 +31,6 @@ export const AJAX = async function (url, uploadData = undefined) {
   }
 };
 
-/**
- * Converts numbers to fractions:
- * - 1.25 to 1 1/4
- * - 2 to 2
- */
-
 /*
 export const getJSON = async function (url) {
   try {
