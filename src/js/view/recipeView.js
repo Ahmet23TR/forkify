@@ -3,7 +3,6 @@ import View from './View.js';
 import icons from 'url:../../img/icons.svg'; // Parcel 2
 // import { Fraction } from 'fractional';
 import { numberToFraction } from '../helpers.js';
-data.quantity ? numberToFraction(data.quantity).toString() : '';
 
 class RecipeView extends View {
   _parentElement = document.querySelector('.recipe');
