@@ -62,7 +62,6 @@ export const numberToFraction = function (amount) {
   }
   return amount;
 };
-
 /*
 export const getJSON = async function (url) {
   try {
