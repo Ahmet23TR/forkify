@@ -136,6 +136,7 @@ class RecipeView extends View {
       </div>
     </li>
   `;
+    console.log('hey');
   }
 }
 
